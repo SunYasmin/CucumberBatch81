@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/resources/features",
         glue = "stepDefinitions",
-        tags = "@gp1 or @gp2", // iki tag'ı aynı anda çalıştırmak isterseniz "@gp1 or @gp2"
+        tags = "@parametre", // iki tag'ı aynı anda çalıştırmak isterseniz "@gp1 or @gp2" Bu tag a qyasemin yazsam feauture a da @yasemin yazsam calisir. Aralarinda baglanti var
         dryRun = false
 )
 
